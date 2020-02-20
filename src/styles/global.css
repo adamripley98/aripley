@@ -1,0 +1,53 @@
+html, body {
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+u {
+  text-decoration: none;
+  color: #05853a;
+  font-weight: bold;
+}
+
+u:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.green-text {
+  color: #05853a;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 4rem !important;
+}
+
+.p-large {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+}
+
+.social-icon {
+  height: 2.5rem;
+  margin: 0 0.3rem;
+}
+
+.social-group {
+  float: right;
+}
+
+.clear {
+  clear:both;
+}
+
+.headshot {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  /* float: left; */
+}
