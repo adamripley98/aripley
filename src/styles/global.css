@@ -1,5 +1,6 @@
 html, body {
   font-family: 'Work Sans', sans-serif !important;
+  background: #F5F5F5;
 }
 
 u {
@@ -14,11 +15,21 @@ u:hover {
 }
 
 .logo {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
+  margin: 0;
 }
 
 .green-text {
+  color: #05853a;
+}
+
+.green-link {
+  color: #05853a;
+  font-weight: bold;
+}
+
+.green-link:hover {
   color: #05853a;
 }
 
@@ -28,26 +39,48 @@ h1 {
 }
 
 .p-large {
-  font-size: 1.6rem;
-  line-height: 2.3rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 .social-icon {
   height: 2.5rem;
-  margin: 0 0.3rem;
+  margin: 0 0.5rem;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+  cursor: ponter;
 }
 
 .social-group {
-  float: right;
+  margin-top: 1rem;
 }
 
 .clear {
   clear:both;
 }
 
+.center {
+  text-align: center;
+}
+
 .headshot {
   height: 16rem;
   width: 16rem;
   border-radius: 50%;
-  /* float: left; */
+
+  border: 5px solid hsl(144.8, 92.8%, 40%);
+  padding: 5px;
+  background: hsl(144.8, 92.8%, 20%);
+  box-shadow:
+      0 0 0 10px hsl(144.8, 92.8%, 80%),
+      0 0 0 15px hsl(144.8, 92.8%, 90%);
+}
+
+.c-card {
+  box-shadow: 0 8px 25px rgba(199, 199, 199, 0.7);
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 2rem 3rem;
 }
