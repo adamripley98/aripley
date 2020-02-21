@@ -40,12 +40,11 @@ const IndexPage = () => (
               I’m a student, <a href="https://www.riplo.io" target="_blank" className="green-link">web developer,</a> and product builder from Alaska.
               I study entrepreneurial management, computer science, and psychology at the <a href="https://www.upenn.edu/" target="_blank" className="green-link">University of Pennsylvania.</a>
               &nbsp;I’m passionate about <span><u>A LOT,</u></span> but at the end of the day I’m driven mostly by the idea of building cool things with cool people.
-              See what I’m <span><u>working on,</u></span> get weirded out by my <span><u>thoughts,</u></span> and <a href="mailto:aripley@wharton.upenn.edu" className="green-link">say hi.</a>
+              See what I’m <span><u>working on,</u></span> get weirded out by my <Link className="green-link" to="/thoughts">thoughts,</Link> and <a href="mailto:aripley@wharton.upenn.edu" className="green-link">say hi.</a>
             </p>
           </div>
         </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
