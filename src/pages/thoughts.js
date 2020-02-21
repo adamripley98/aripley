@@ -8,9 +8,9 @@ import Cowboy from '../images/cowboy.png'
 const Thoughts = () => (
   <Layout>
     <SEO title="Thoughts" />
-    <div className="d-flex">
+    <div className="d-flex align-items-center justify-content-center">
       <img src={Cowboy} alt="cowboy" className="h1-image" />
-      <h1>Me (in 1000 words)</h1>
+      <h1>Me (in <span className="green-text">1000</span> words)</h1>
     </div>
     <div className="thoughts-text">
       <p>
@@ -20,7 +20,7 @@ const Thoughts = () => (
         While I’d been duly warned that the East Coast would be a serious adjustment from Alaska, I never could have adequately prepared myself. The usual uncertainty a typical college freshman experiences being thousands of miles from home was heightened to a full-blown existential crisis by the gargantuan difference between Penn in actuality and the Penn I’d constructed in my imagination over the previous few years. I was knocked on my ass. The Penn of my dreams involved a culture of best friends dropping out to risk everything and expand their promising dorm room ventures. The real Penn involved a culture of recruiting for investment banking and consulting internships 1.5 years in advance. After a year of feeling fairly out of place, deeply dissociated, and completely pointless, I made a conscious decision to reinvent myself. I learned web development, began taking freelance clients, quit my resume-filling extracurriculars to focus my energy on self-learning, and started plotting an elaborate plan for time off from college.
       </p>
       <p>
-        After my sophomore year I took a leave of absence from Penn, unsure if I’d go back. During this time, I lived in my car (for what was possibly the best three months of my entire life) traveling the West Coast and checked out Europe and Asia for the first time. All the while I was thinking, reading, writing, freelance web dev-ing, and pondering my next steps. To summarize my 8 months of primarily solo traveling briefly, I had an absurd time. I traveled to two new continents, experimented with drugs, got three tattoos, made my car my home, lived with a random French couple from Facebook in Barcelona, meditated with monks in Thailand, felt blissfully at peace and existentially depressed, made many special romantic and friendly connections, and learned about my mind in ways I couldn’t have even began to imagine before.
+        After my sophomore year I took a leave of absence from Penn, unsure if I’d go back. During this time, I lived in my car (for what was possibly the best three months of my entire life) traveling the West Coast and checked out Europe and Asia for the first time. All the while I was thinking, reading, writing, freelance web dev-ing, and pondering my next steps. To summarize my 8 months of primarily solo traveling briefly, I had an absurd time. I traveled to two new continents, got a couple more tattoos, made my car my home, lived with a random French couple from Facebook in Barcelona, roadtripped around Iceland, meditated with monks in Thailand, felt blissfully at peace and existentially depressed, made many special romantic and friendly connections, and learned about my mind in ways I couldn’t have even began to imagine before.
       </p>
       <p>
         My year off taught me two things primarily. First, I learned I want to spend a good portion of my 20s remote working and traveling. There’s so much to experience before anchoring to one point on the planet, and I want to design my lifestyle to allow me to work from anywhere - my RV, my friends’ couches, other countries, home, anywhere. Second, I learned the hard way that without a few more years of finishing college, I wasn’t emotionally mature or technically talented enough to make the digital nomad lifestyle work yet. I refactored my plan and decided to return to Penn to finish up, adding a psychology degree to my existing business and computer science studies. I’m currently set to graduate in May 2021.
@@ -38,7 +38,7 @@ const Thoughts = () => (
         My metaphysical understanding drives the way I interact in the world. I care endlessly about the big picture, and I don’t get distracted by the small things. Having an impact and designing my own lifestyle are what drive my obsessive search for knowledge and self improvement. I don’t want a ton of money, and I don’t want prestige - I want to partake in absurd adventures with my best friends and leave a mark on the world.
       </p>
       <p>
-        I’m passionate about psychology, philosophy, education, mental health, art, technology, and entrepreneurship. My long term goals center around combining these interests in creative ways that helps people change their perception about their time alive. I’m particularly interested in how we can learn, adapt, and maintain our sanity and creativity in an accelerating, technological world. On the whole, I find myself becoming increasingly curious about both the nature of my mind and the world as a whole as my life progresses, and I’m so excited to keep understanding and building my internal and external reality in relation to each other.
+        I’m passionate about psychology, philosophy, education, mental health, art, technology, and entrepreneurship. My long term goals center around combining these interests in creative ways that help people change their perceptions about their times alive. I’m particularly interested in how we can learn, adapt, and maintain our sanity and creativity in an accelerating, technological world. On the whole, I find myself becoming increasingly curious about both the nature of my mind and the world as a whole as my life progresses, and I’m so excited to keep understanding and building my internal and external reality in relation to each other.
       </p>
       <p>
         Well, that’s me and my thoughts in a nutshell. Thanks for listening!
