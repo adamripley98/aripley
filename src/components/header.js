@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
         <img className="logo" src={Logo} alt="logo" />
       </Link>
       {
-        (window.location.pathname === "/" || window.location.pathname === "/home") ? (
+        window && (window.location.pathname === "/" || window.location.pathname === "/home") ? (
           null
         ) : (
           <div className="nav-links">
