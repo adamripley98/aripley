@@ -14,6 +14,42 @@ u:hover {
   cursor:pointer;
 }
 
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
 .logo {
   width: 5rem;
   height: 5rem;
@@ -44,6 +80,10 @@ h1 {
 .p-large {
   font-size: 1.4rem;
   line-height: 2.2rem;
+}
+
+.p-bigger {
+  font-size: 1.1rem;
 }
 
 .social-icon {
@@ -86,7 +126,7 @@ h1 {
   border-radius: 6px;
   background-color: #ffffff;
   padding: 2rem 3rem;
-  margin: 2rem 0 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .c-card-no-padding {
@@ -114,10 +154,38 @@ h1 {
 }
 
 .green-title {
-  color: green;
+  color: #05853a;
   font-weight: bold;
   font-size: 2.5rem;
   font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style:italic;
+}
+
+.nav-links {
+  float: right;
+  display: flex;
+  padding-top: 1rem;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #05853a;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: darkgreen;
 }
 
 @media (max-width: 576px) {
@@ -126,5 +194,19 @@ h1 {
   }
   .h1-big {
     font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .c-card {
+    margin: 2rem 0 1rem 0;
+  }
+}
+
+@media (max-width: 817px) {
+  .nav-links {
+    float:none;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

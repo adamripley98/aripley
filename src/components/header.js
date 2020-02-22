@@ -23,7 +23,39 @@ const Header = ({ siteTitle }) => (
       >
         <img className="logo" src={Logo} alt="logo" />
       </Link>
+      {
+        (window.location.pathname === "/" || window.location.pathname === "/home") ? (
+          null
+        ) : (
+          <div className="nav-links">
+            <Link
+              to="/thoughts"
+              className="nav-link"
+              activeStyle={{ textDecoration: "underline" }}
+            >
+            THOUGHTS
+            </Link>
+            <Link
+              to="/currently"
+              className="nav-link"
+              activeStyle={{ textDecoration: "underline" }}
+            >
+            CURRENTLY
+            </Link>
+            <Link
+              to="/interests"
+              className="nav-link"
+              activeStyle={{ textDecoration: "underline" }}
+            >
+            INTERESTS
+            </Link>
+            <a className="nav-link" href="https://www.riplo.io/" target="_blank">FREELANCE</a>
+            <a className="nav-link" href="mailto:aripley@wharton.upenn.edu">CONTACT</a>
+          </div>
+        )
+      }
     </div>
+    <div className="clear" />
   </header>
 )
 

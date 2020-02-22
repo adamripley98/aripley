@@ -35,16 +35,17 @@ const IndexPage = () => (
         </div>
         <div className="col-lg-8">
           <div className="c-card">
-            <h1 className="h1-big">Hi, I'm <span className="green-text">Adam.</span></h1>
+            <h1 className="h1-big italic">Hi, I'm <span className="green-text">Adam.</span></h1>
             <p className="p-large">
               I’m a student, <a href="https://www.riplo.io" target="_blank" className="green-link">web developer,</a> and product builder from Alaska.
               I study entrepreneurial management, computer science, and psychology at the <a href="https://www.upenn.edu/" target="_blank" className="green-link">University of Pennsylvania.</a>
-              &nbsp;I’m passionate about <span><u>A LOT,</u></span> but at the end of the day I’m driven mostly by the idea of building cool things with cool people.
+              &nbsp;I’m passionate about <Link className="green-link" to="/interests">A LOT,</Link> but at the end of the day I’m driven mostly by the idea of building cool things with cool people.
               See what I’m <Link className="green-link" to="/currently">working on,</Link> get weirded out by my <Link className="green-link" to="/thoughts">thoughts,</Link> and <a href="mailto:aripley@wharton.upenn.edu" className="green-link">say hi.</a>
             </p>
           </div>
         </div>
     </div>
+    <br/>
   </Layout>
 )
 

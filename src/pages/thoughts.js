@@ -10,7 +10,7 @@ const Thoughts = () => (
     <SEO title="Thoughts" />
     <div className="d-flex align-items-center justify-content-center">
       <img src={Cowboy} alt="cowboy" className="h1-image" />
-      <h1>Me (in <span className="green-text">1000</span> words)</h1>
+      <h1 className="italic">Me (in <span className="green-text">1000</span> words)</h1>
     </div>
     <div className="thoughts-text">
       <p>
