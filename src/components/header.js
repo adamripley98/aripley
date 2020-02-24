@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
         typeof window !== 'undefined' && (window.location.pathname === "/" || window.location.pathname === "/home") ? (
           null
         ) : (
-          <div className="nav-links">
+          <div className="nav-links animate fadeIn">
             <Link
               to="/thoughts"
               className="nav-link"

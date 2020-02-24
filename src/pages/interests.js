@@ -24,7 +24,7 @@ const Interests = () => (
     <p className="p-large">
       <span className="bold underline">Intellectual:</span> psychology, philosophy, neuroscience, CS, entrepreneurial management, VC
       <br/>
-      <span className="bold underline">Philosophical:</span> absurdism, buddhism, futurism, humanism, simulation theory (haha)
+      <span className="bold underline">Philosophical:</span> absurdism, buddhism, futurology, humanism, simulation theory (haha)
       <br/>
       <span className="bold underline">Fields:</span> Mental health, education, remote work, consumer products, software dev
     </p>
@@ -68,11 +68,15 @@ const Interests = () => (
       <br/>
       Yes Man
       <br/>
-      Don Jon
+      Waking Life
       <br/>
       500 Days of Summer
       <br/>
       Good Will Hunting
+      <br/>
+      Before Sunrise
+      <br/>
+      Boyhood
     </p>
   </Layout>
 )
